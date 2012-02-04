@@ -14,7 +14,7 @@ function start() {
     response.end();
   }
 
-  
+  http.createServer(onRequest).listen(8080);
 }
 
 exports.start = start;
